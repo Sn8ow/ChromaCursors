@@ -1,0 +1,52 @@
+;Chroma cursors
+;
+;Glimy
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+chroma_alternate_select.ani
+chroma_busy.ani
+chroma_diagonal_resize1.ani
+chroma_diagonal_resize2.ani
+chroma_handwriting.cur
+chroma_help_select.ani
+chroma_horizontal_resize.ani
+chroma_link_select.ani
+chroma_move.ani
+chroma_normal_select.ani
+chroma_precision_select.ani
+chroma_text_select.ani
+chroma_unavailable.ani
+chroma_vertical_resize.ani
+chroma_working_in_background.ani
+
+[Strings]
+CUR_DIR     = "Cursors\Chroma"
+SCHEME_NAME = "Chroma"
+alternate   = "chroma_alternate_select.ani"
+busy    = "chroma_busy.ani"
+cross   = "chroma_precision_select.ani"
+dgn1    = "chroma_diagonal_resize1.ani"
+dgn2    = "chroma_diagonal_resize2.ani"
+hand    = "chroma_handwriting.cur"
+help    = "chroma_help_select.ani"
+horz    = "chroma_horizontal_resize.ani"
+link    = "chroma_link_select.ani"
+move    = "chroma_move.ani"
+pointer = "chroma_normal_select.ani"
+text    = "chroma_text_select.ani"
+unavailiable = "chroma_unavailable.ani"
+vert    = "chroma_vertical_resize.ani"
+work    = "chroma_working_in_background.ani
